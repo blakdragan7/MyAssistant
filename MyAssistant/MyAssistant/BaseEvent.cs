@@ -3,15 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Xamarin.Forms;
 
 namespace MyAssistant
 {
-    public partial class MainPage : ContentPage
+    class BaseEvent
     {
-        public MainPage()
+        public BaseEvent()
         {
-            InitializeComponent();
+
         }
     }
 }
